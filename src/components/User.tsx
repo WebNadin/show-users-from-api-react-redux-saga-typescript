@@ -8,15 +8,13 @@ export interface IUser {
 
 const User = ({ user }: {user: IUser}) => {
   return (
-    <Card sx={{ minWidth: 275 }}>
+    <Card sx={{ minWidth: 300, margin: "1em"}}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-          {user.id}
-          test id
+          userId: {user.id}
         </Typography>
         <Typography variant="h5" component="div">
           {user.login}
-          test login
         </Typography>
       </CardContent>
     </Card>
