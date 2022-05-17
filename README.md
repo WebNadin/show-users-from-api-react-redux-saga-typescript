@@ -7,7 +7,7 @@ In this project I used:
 - MaterialUI
 - TypeScript
 
-You can see result on [http://webnadin.inf.ua/show-users-from-api/](http://webnadin.inf.ua/show-users-from-api/)
+You can see result on [http://webnadin.inf.ua/](http://webnadin.inf.ua/)
 
 ### Installation
 
